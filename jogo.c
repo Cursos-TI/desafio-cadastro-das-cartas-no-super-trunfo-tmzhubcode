@@ -10,7 +10,7 @@ int main(){
 
     char nome[20];
     printf("Nome da sua cidade:\n");
-    scanf("%f", &nome);
+    scanf("%c", &nome);
     int Nota;
     printf("De 0 á 10 qual a nota para os locais publicos da sua cidade?\n");
     scanf("%d", &Nota);
@@ -31,7 +31,7 @@ int main(){
     printf("                                                                                   \n");
     char Nome[40];
     printf("qual o nome da cidade?\n");
-    scanf("%f", &Nome);
+    scanf("%c", &Nome);
     int n;
     printf("De 0 á 10 qual a nota para os locais publicos desta cidade?\n");
     scanf("%d", &n);
@@ -66,7 +66,7 @@ int main(){
     printf("                                                                                   \n");
     char nOme[30];
     printf("Iae, qual cidade ganhou no seu conceito?\n");
-    scanf("%f", &nOme);
+    scanf("%c", &nOme);
     printf("                                                                                   \n");
     printf("                                                                                   \n");
     printf("obrigado por participar!\n");
@@ -74,8 +74,6 @@ int main(){
     printf("                                                                                   \n");
     printf("                                                                                   \n");
 
-    return 0;
 
-
-
+return 1;
 }
